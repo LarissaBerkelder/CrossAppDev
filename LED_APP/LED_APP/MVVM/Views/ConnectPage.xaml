@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LED_APP.Views.ConnectPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#181818">
+
+ 
+    <StackLayout VerticalOptions="Center"
+                 Margin="20,0,20,0">
+        
+        <!-- Information label -->
+        <Label Style="{StaticResource LabelConnect}"
+               Text="{Binding ConnectModel.ConnectLabel}" />
+
+        <!-- Button to connect to bluetooth device -->
+        <Button Style="{StaticResource ButtonConnect}"
+                IsVisible="{Binding ConnectModel.ConnectButton.ButtonVisible}"
+                Command="{Binding ConnectModel.ConnectButton.Command}"
+                Text="Connect" />
+
+        <!-- ActivityIndicator starts running when trying to connect -->
+        <ActivityIndicator Style="{StaticResource ActivityIndicatorConnect}"
+                           IsRunning="{Binding ConnectModel.ActivityRunning}"/>
+
+    </StackLayout>
+
+
+
+</ContentPage>

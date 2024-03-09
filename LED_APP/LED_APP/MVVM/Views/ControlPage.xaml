@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LED_APP.MVVM.Views.ControlPage"
+             xmlns:controls="clr-namespace:ColorPicker.Maui;assembly=ColorPicker.Maui"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#181818">
+
+    <StackLayout>
+        
+        <!-- Header -->
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Fill" 
+                     HeightRequest="60"
+                     BackgroundColor="#222222">
+            
+            <!-- Connection indicator frame will be green when device is connected -->
+            <Frame  Style="{StaticResource FrameHeaderConnectionIndicator}"
+                    BackgroundColor="{Binding ControlModel.Header.ConnectIndicator}"  />
+
+            <Label  Style="{StaticResource LabelHeader}"
+                    Text="{Binding ControlModel.Header.ConnectionStatus}"/>
+
+            <Button Style="{StaticResource ButtonHeader}"
+                    IsVisible="{Binding ControlModel.Header.ButtonVisible}"
+                    Command="{Binding ControlModel.Header.Command}"/>
+
+        </StackLayout>
+        
+        <!-- Color picker -->
+        <StackLayout VerticalOptions="Fill"
+                     HeightRequest="350"
+                     Margin="0,20,0,0">
+            <!-- Color picker information label -->
+            <Label Style="{StaticResource LabelInformation}"
+                   Text="Select color" />
+
+            <!-- Color picker with color picker-->
+            <Frame  Style="{StaticResource FrameColorPicker}">
+                <controls:ColorPicker ColorFlowDirection="Horizontal"       
+                                      ColorSpectrumStyle="HueOnlyStyle"
+                                      PickedColor="{Binding ControlModel.ColorPicker.ControlSelectedColor, Mode=TwoWay}">
+                    <controls:ColorPicker.BaseColorList>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>#FF0000</x:String>
+                            <x:String>#FF6800</x:String>
+                            <x:String>#FFFF00</x:String>
+                            <x:String>#00FF00</x:String>
+                            <x:String>#009EFF</x:String>
+                            <x:String>#0008FF</x:String>
+                            <x:String>#AA00FF</x:String>
+                            <x:String>#FF00F7</x:String>
+                        </x:Array>
+                    </controls:ColorPicker.BaseColorList>
+                </controls:ColorPicker>
+            </Frame>
+        </StackLayout>
+
+        
+        <!--  Saved colors information label  -->
+        <Label Style="{StaticResource LabelInformation}"
+               Text="Saved colors" />
+
+        <!--  Saved colors -->
+        <StackLayout HeightRequest="100"
+                     Orientation="Horizontal"
+                     Margin="15,0,15,0">
+
+            <Button Style="{StaticResource ButtonSaveColor}"
+                    Command="{Binding ControlModel.SavedColors.SaveCommand}"/>
+             <!-- Collection view for the saved colors -->
+            <CollectionView ItemsSource="{Binding ControlModel.SavedColors.SavedColorsCollection}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Button  Style="{StaticResource ButtonSendSavedColor}"
+                                 BackgroundColor="{Binding Color}"
+                                 CommandParameter="{Binding .}"
+                                 Command="{Binding Command}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+
+        <!-- Current brightness-->
+        <Label Style="{StaticResource LabelInformation}"
+               Text="Current brightness" />
+        
+        <!-- Current brightness indicator -->
+        <Frame Style="{StaticResource FrameBrightness}">
+            <Frame Style="{StaticResource BrightnessPercentage}"
+                   WidthRequest="{Binding ControlModel.Brightness.BrightnessValue}" /> 
+        </Frame>
+
+        <!-- Choose effect -->
+        <Label Style="{StaticResource LabelInformation}"
+               Text="Choose effect" />
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center">
+
+            <CollectionView ItemsSource="{Binding ControlModel.Effects.EffectCollection}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Frame Style="{StaticResource ChooseEffectFrame}"
+                               BorderColor="{Binding BorderColor}">
+                            <Grid RowDefinitions="*,20">
+                                <ImageButton Style="{StaticResource EffectButton}"
+                                             Source="{Binding Source}"
+                                             CommandParameter="{Binding .}"
+                                             Command="{Binding Command}" />
+                                <Label Style="{StaticResource LabelEffect}"
+                                       Text="{Binding EffectName}" />
+
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+        </StackLayout> 
+        
+
+    </StackLayout>
+      
+</ContentPage>

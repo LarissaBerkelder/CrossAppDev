@@ -1,0 +1,167 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LED_APP"
+             x:Class="LED_APP.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- ResourceDictionary for the ConnectPage -->
+            <Style x:Key="LabelConnect" TargetType="Label">
+                <Setter Property="TextColor" Value="#E6E6E6"/>
+                <Setter Property="FontFamily" Value="Anta"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="50"/>
+            </Style>
+
+            <Style x:Key="ButtonConnect" TargetType="Button">
+                <Setter Property="TextColor" Value="#E6E6E6"/>
+                <Setter Property="FontFamily" Value="Anta"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="Margin" Value="0,20,0,0"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="BackgroundColor" Value="#2CA2B5"/>
+            </Style>
+
+            <Style x:Key="ActivityIndicatorConnect" TargetType="ActivityIndicator">
+                <Setter Property="Color" Value="#2CA2B5"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="VerticalOptions" Value="Fill"/>
+                <Setter Property="Margin" Value="0,20,0,0"/>
+            </Style>
+
+            <!-- ResourceDictionary for the ConnectPage -->
+
+            <Style x:Key="LabelInformation" TargetType="Label">
+                <Setter Property="TextColor" Value="#E6E6E6"/>
+                <Setter Property="FontFamily" Value="Anta"/>
+                <Setter Property="FontSize" Value="22"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="Margin" Value="15,0,0,0" />
+            </Style>
+            
+            <!-- Header -->
+            <Style x:Key="FrameHeaderConnectionIndicator" TargetType="Frame">
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="HeightRequest" Value="20"/>
+                <Setter Property="WidthRequest" Value="20"/>
+                <Setter Property="CornerRadius" Value="100"/>
+                <Setter Property="Margin" Value="10,0,10,0"/>
+            </Style>
+
+            <Style x:Key="LabelHeader" TargetType="Label">
+                <Setter Property="TextColor" Value="#E6E6E6"/>
+                <Setter Property="FontFamily" Value="Anta"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+            </Style>
+
+            <Style x:Key="ButtonHeader" TargetType="Button">
+                <Setter Property="Text" Value="Reconnect"/>
+                <Setter Property="TextColor" Value="#E6E6E6"/>
+                <Setter Property="FontFamily" Value="Anta"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="HorizontalOptions" Value="EndAndExpand"/>
+                <Setter Property="Margin" Value="5,5,10,5"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="BackgroundColor" Value="#181818"/>
+                <Setter Property="BorderColor" Value="#E6E6E6"/>
+            </Style>
+            
+            <!-- Color picker frame -->
+            <Style x:Key="FrameColorPicker" TargetType="Frame">
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                <Setter Property="HeightRequest" Value="300"/>
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="CornerRadius" Value="150"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+            
+            <!--  Saved colors  -->
+
+            <Style x:Key="ButtonSaveColor" TargetType="Button">
+                <Setter Property="Text" Value="+"/>
+                <Setter Property="TextColor" Value="#E6E6E6"/>
+                <Setter Property="FontFamily" Value="Anta"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="HeightRequest" Value="60"/>
+                <Setter Property="WidthRequest" Value="60"/>
+                <Setter Property="CornerRadius" Value="100"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="BorderColor" Value="#2CA2B5"/>
+                <Setter Property="BorderWidth" Value="2"/>
+            </Style>
+
+            <Style x:Key="ButtonSendSavedColor" TargetType="Button">
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="10,0,0,0"/>
+                <Setter Property="CornerRadius" Value="100"/>
+                <Setter Property="HeightRequest" Value="60"/>
+                <Setter Property="WidthRequest" Value="60"/>
+            </Style>
+
+
+            <!--  Current brightness  -->
+            <Style x:Key="FrameBrightness" TargetType="Frame">
+                <Setter Property="HeightRequest" Value="40"/>
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="BorderColor" Value="#2CA2B5"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Padding" Value="0"/>
+                <Setter Property="Margin" Value="0,20,0,20"/>
+            </Style>
+
+            <Style x:Key="BrightnessPercentage" TargetType="Frame">
+                <Setter Property="HeightRequest" Value="40"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="BackgroundColor" Value="#2CA2B5"/>
+                <Setter Property="BorderColor" Value="Transparent"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+            
+            
+            <!-- Choose effect -->
+            <Style x:Key="ChooseEffectFrame" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="WidthRequest" Value="85"/>
+                <Setter Property="HeightRequest" Value="85"/>
+                <Setter Property="CornerRadius" Value="100"/>
+                <Setter Property="Margin" Value="10,10,10,10"/>
+                <Setter Property="Padding" Value="15"/>
+            </Style>
+
+            <Style x:Key="EffectButton" TargetType="ImageButton">
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="Grid.Row" Value="0"/>
+            </Style>
+
+            <Style x:Key="LabelEffect" TargetType="Label">
+                <Setter Property="TextColor" Value="#E6E6E6"/>
+                <Setter Property="FontFamily" Value="Anta"/>
+                <Setter Property="FontSize" Value="10"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="0,5,0,0"/>
+                <Setter Property="HeightRequest" Value="20"/>
+                <Setter Property="Grid.Row" Value="1"/>
+            </Style>
+
+
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

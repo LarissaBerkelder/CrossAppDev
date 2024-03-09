@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.dpf": "yaml",
+        "new": "cpp",
+        "system_error": "cpp"
+    }
+}

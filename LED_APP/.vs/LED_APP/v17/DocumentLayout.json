@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|c:\\users\\laris\\onedrive\\bureaublad\\technische informatica\\cad\\assessment\\led_app\\led_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|solutionrelative:led_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|c:\\users\\laris\\onedrive\\bureaublad\\technische informatica\\cad\\assessment\\led_app\\led_app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|solutionrelative:led_app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|c:\\users\\laris\\onedrive\\bureaublad\\technische informatica\\cad\\assessment\\led_app\\led_app\\mvvm\\viewmodels\\connectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|solutionrelative:led_app\\mvvm\\viewmodels\\connectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|c:\\users\\laris\\onedrive\\bureaublad\\technische informatica\\cad\\assessment\\led_app\\led_app\\mvvm\\views\\controlpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|solutionrelative:led_app\\mvvm\\views\\controlpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|c:\\users\\laris\\onedrive\\bureaublad\\technische informatica\\cad\\assessment\\led_app\\led_app\\mvvm\\models\\connectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|solutionrelative:led_app\\mvvm\\models\\connectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|c:\\users\\laris\\onedrive\\bureaublad\\technische informatica\\cad\\assessment\\led_app\\led_app\\mvvm\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|solutionrelative:led_app\\mvvm\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|c:\\users\\laris\\onedrive\\bureaublad\\technische informatica\\cad\\assessment\\led_app\\led_app\\mvvm\\views\\connectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776318F2-80C4-41B7-8BFC-EE0ABFDF61C9}|LED_APP\\LED_APP.csproj|solutionrelative:led_app\\mvvm\\views\\connectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControlPage.xaml",
+              "DocumentMoniker": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\Views\\ControlPage.xaml",
+              "RelativeDocumentMoniker": "LED_APP\\MVVM\\Views\\ControlPage.xaml",
+              "ToolTip": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\Views\\ControlPage.xaml",
+              "RelativeToolTip": "LED_APP\\MVVM\\Views\\ControlPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-09T19:38:22.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "LED_APP\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MauiProgram.cs",
+              "RelativeToolTip": "LED_APP\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T19:38:04.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "LED_APP\\MVVM\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "LED_APP\\MVVM\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T17:05:51.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConnectPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\Views\\ConnectPage.xaml.cs",
+              "RelativeDocumentMoniker": "LED_APP\\MVVM\\Views\\ConnectPage.xaml.cs",
+              "ToolTip": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\Views\\ConnectPage.xaml.cs",
+              "RelativeToolTip": "LED_APP\\MVVM\\Views\\ConnectPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T17:05:23.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LED_APP\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\App.xaml.cs",
+              "RelativeToolTip": "LED_APP\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T17:03:45.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\ViewModels\\ConnectViewModel.cs",
+              "RelativeDocumentMoniker": "LED_APP\\MVVM\\ViewModels\\ConnectViewModel.cs",
+              "ToolTip": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\ViewModels\\ConnectViewModel.cs",
+              "RelativeToolTip": "LED_APP\\MVVM\\ViewModels\\ConnectViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T17:08:55.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConnectModel.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\Models\\ConnectModel.cs",
+              "RelativeDocumentMoniker": "LED_APP\\MVVM\\Models\\ConnectModel.cs",
+              "ToolTip": "C:\\Users\\laris\\OneDrive\\Bureaublad\\Technische Informatica\\CAD\\Assessment\\LED_APP\\LED_APP\\MVVM\\Models\\ConnectModel.cs",
+              "RelativeToolTip": "LED_APP\\MVVM\\Models\\ConnectModel.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T17:55:02.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1102,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
